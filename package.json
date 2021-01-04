@@ -17,6 +17,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "precommit": [
+    "build"
+  ],
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
